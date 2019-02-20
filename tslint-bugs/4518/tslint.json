@@ -1,0 +1,40 @@
+{
+  "defaultSeverity": "error",
+  "extends": "tslint:recommended",
+  "jsRules": {},
+  "rules": {
+    "quotemark": [
+      true,
+      "single",
+      "avoid-escape"
+    ],
+    "member-access": [
+      true,
+      "no-public"
+    ],
+    "object-literal-sort-keys": [
+      false
+    ],
+    "object-literal-shorthand": [
+      true,
+      "never"
+    ],
+    "ordered-imports": [
+      false
+    ],
+    "trailing-comma": [
+      true,
+      {
+        "esSpecCompliant": true
+      }
+    ]
+  },
+  "rulesDirectory": [],
+  "linterOptions": {
+    "exclude": [
+      "src/test.ts",
+      "src/main.ts",
+      "src/polyfills.ts"
+    ]
+  }
+}
